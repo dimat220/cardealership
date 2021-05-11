@@ -47,7 +47,7 @@
                 <artifactId> exec-maven-plugin </artifactId>
                 <version> 3.0.0 </version>
                 <configuration>
-                    <mainClass> ru.vsu.cardealership.Store </mainClass>
+                    <mainClass> Store </mainClass>
                 </configuration>          
             </plugin>
             
