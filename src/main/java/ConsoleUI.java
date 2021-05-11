@@ -26,17 +26,6 @@ public class ConsoleUI {
 
     }
 
-    public static void makeStep(int st)
-    {
-        switch (st) {
-            case 0:
-                out.println(main_menu);
-
-
-        }
-
-    }
-
     public static int getCommand()
     {
         out.println(main_menu);
@@ -48,5 +37,10 @@ public class ConsoleUI {
     {
         out.println(name);
         return sc.nextLine();
+    }
+
+    static void printLine(String str)
+    {
+        out.println(str);
     }
 }
