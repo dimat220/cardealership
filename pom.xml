@@ -4,6 +4,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
          
+    <groupId>ru.vsu</groupId>
+    <artifactId>car-dealership</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.xerial/sqlite-jdbc -->
         <dependency>
@@ -37,11 +41,17 @@
                     </archive>
                 </configuration>
             </plugin>
+            
+            <plugin>
+                <groupId> org.codehaus.mojo </groupId>
+                <artifactId> exec-maven-plugin </artifactId>
+                <version> 3.0.0 </version>
+                <configuration>
+                    <mainClass> ru.vsu.car-dealership.Store </mainClass>
+                </configuration>          
+            </plugin>
+            
         </plugins>
     </build>
-         
-    <groupId>ru.vsu</groupId>
-    <artifactId>car-dealership</artifactId>
-    <version>1.0-SNAPSHOT</version>
          
 </project>
