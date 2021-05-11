@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
          
     <groupId>ru.vsu</groupId>
-    <artifactId>car-dealership</artifactId>
+    <artifactId>cardealership</artifactId>
     <version>1.0-SNAPSHOT</version>
     
     <dependencies>
@@ -47,7 +47,7 @@
                 <artifactId> exec-maven-plugin </artifactId>
                 <version> 3.0.0 </version>
                 <configuration>
-                    <mainClass> ru.vsu.car-dealership.Store </mainClass>
+                    <mainClass> ru.vsu.cardealership.Store </mainClass>
                 </configuration>          
             </plugin>
             
